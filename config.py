@@ -4,6 +4,7 @@ OWNER_ID = 6588896137
 TELEGRAM_API = 18089829
 TELEGRAM_HASH = "471a50f9996094b390bd757abd2ae8e1"
 DATABASE_URL = "mongodb+srv://root:dark00devil00@sarthxbot.qp273sm.mongodb.net/"
+DOWNLOAD_DIR=/downloads
 
 # OPTIONAL CONFIG
 DEFAULT_LANG = "en"
@@ -11,7 +12,7 @@ TG_PROXY = (
     {}
 )  # {"scheme": ”socks5”, "hostname": ””, "port": 1234, "username": ”user”, "password": ”pass”}
 USER_SESSION_STRING = "BQEUB2UAQP29xfiHX3eLjgXH5JGq9UkTKdHESkoEVP1QLJ28JTKaCcqgJ9SRiai7Ri5MIFCiHS6M4XwKPY3saTv9WdDODrTqvXnm9KarTDQo_qo7-3KFmL9c5ZoS94OxFGUWar3sBiQJOMtyVFbFqekfip14HC8V7SEf2Q1rleQTOAAEcntprSPGcIzLEw4eOxM7n22cyFNWbkPYpEtvksBKuijbpZ93V3_AlrstfIhVAOmiMUnQFodoIGPY7KXfO-2SnZkF8zlAu0ZP1Fbdtc-IKP03e9Kaoi1kAJCY_Oe_ThDonbtGrOorwbt1yMwryaQ9aL1g4i6amECkpVYzevzBpAgFiAAAAAGIupOJAA"
-CMD_SUFFIX = "/"
+CMD_SUFFIX = ""
 AUTHORIZED_CHATS = "-5015981008"
 SUDO_USERS = "6588896137"
 STATUS_LIMIT = 10
@@ -88,6 +89,7 @@ FORCE_SUB_IDS = ""
 MEDIA_STORE = True
 DELETE_LINKS = False
 CLEAN_LOG_MSG = False
+DOWNLOAD_DIR = "/downloads"
 
 # Limiters
 BOT_MAX_TASKS = 0
@@ -98,7 +100,7 @@ LOGIN_PASS = ""
 
 # Bot Settings
 BOT_PM = False
-SET_COMMANDS = True
+SET_COMMANDS = False
 TIMEZONE = "Asia/Kolkata"
 
 # GDrive Tools
