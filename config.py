@@ -4,7 +4,7 @@ OWNER_ID = 6588896137
 TELEGRAM_API = 18089829
 TELEGRAM_HASH = "471a50f9996094b390bd757abd2ae8e1"
 DATABASE_URL = "mongodb+srv://root:dark00devil00@sarthxbot.qp273sm.mongodb.net/"
-DOWNLOAD_DIR=/downloads
+DOWNLOAD_DIR="/downloads"
 
 # OPTIONAL CONFIG
 DEFAULT_LANG = "en"
